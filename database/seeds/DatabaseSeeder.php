@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
             ['kode_daerah'=>'0005','nama_daerah'=>'Paduraksa','jenis_daerah'=>'Kelurahan','kepala_daerah'=>'-','nip'=>null],
             ['kode_daerah'=>'0003','nama_daerah'=>'Pegongsoran','jenis_daerah'=>'Desa','kepala_daerah'=>'-','nip'=>null],
             ['kode_daerah'=>'0016','nama_daerah'=>'Pelutan','jenis_daerah'=>'Kelurahan','kepala_daerah'=>'-','nip'=>null],
-            ['kode_daerah'=>'08','nama_daerah'=>'Pemalang','jenis_daerah'=>'Kecamatan','kepala_daerah'=>'SUHIRMAN, S.Sos., M.Si','nip'=>'19671213 199803 1 005'],
+            ['kode_daerah'=>'08','nama_daerah'=>'Pemalang','jenis_daerah'=>'Kecamatan','kepala_daerah'=>'-','nip'=>null],
             ['kode_daerah'=>'0010','nama_daerah'=>'Saradan','jenis_daerah'=>'Desa','kepala_daerah'=>'-','nip'=>null],
             ['kode_daerah'=>'0009','nama_daerah'=>'Sewaka','jenis_daerah'=>'Desa','kepala_daerah'=>'-','nip'=>null],
             ['kode_daerah'=>'0018','nama_daerah'=>'Sugihwaras','jenis_daerah'=>'Kelurahan','kepala_daerah'=>'-','nip'=>null],
@@ -41,9 +41,9 @@ class DatabaseSeeder extends Seeder
             [
                 'username'=>'AdminKecamatan',
                 'password'=>bcrypt('AdminKecamatan'),
-                'email'=>'mdcnugroho@gmail.com',
-                'nama'=>'Muchammad Dwi Cahyo Nugroho',
-                'kontak'=>'082326464265',
+                'email'=>'emailkecamatan@gmail.com',
+                'nama'=>'AdminKecamatan',
+                'kontak'=>'082123123123',
                 'daerah_id' =>13 ,
                 'level' => "1",
                 'created_at' => now(+7.00)
@@ -51,9 +51,9 @@ class DatabaseSeeder extends Seeder
             [
                 'username'=>'AdminBanjarmulya',
                 'password'=>bcrypt('AdminBanjarmulya'),
-                'email'=>'mdcnugroho@student.undip.ac.id',
-                'nama'=>'Muchammad Dwi Cahyo Nugroho',
-                'kontak'=>'082326464265',
+                'email'=>'emaildesa@gmail.com',
+                'nama'=>'AdminBanjarmulya',
+                'kontak'=>'082123123123',
                 'daerah_id' =>1 ,
                 'level' => "2",
                 'created_at' => now(+7.00)
