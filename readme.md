@@ -1,3 +1,1 @@
-## Tunggu Saja
-
-## Yah
+## Sistem informasi yang berisi tentang pencetakan surat perijinan
